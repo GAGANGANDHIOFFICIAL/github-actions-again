@@ -10,11 +10,11 @@ on:
 #hehehehehe
 jobs:
   greet:
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
-    steps:
-      - name: say hello to users
-        run: echo "Hello This is Gagan saying hello"
+      steps:
+         - name: say hello to users
+           run: echo "Hello This is Gagan saying hello"
 
-      - name: say again hello
-        run: echo "Gagan is the king"
+         - name: say again hello
+           run: echo "Gagan is the king"
