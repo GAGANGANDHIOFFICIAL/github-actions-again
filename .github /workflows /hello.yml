@@ -1,1 +1,23 @@
 
+
+#this is the workflow name 
+name : hello workdlow 
+#this is the job 
+
+#this is a trigger$$
+on : 
+  push:
+     branches : [main]
+jobs:
+     #this is the job name 
+      greet:
+      #this is a github runne 
+          runs-on: ubuntu-latest
+          steps: 
+              -name : say hello to users
+               run : echo "Hello This is gagan saying hello"
+
+              -name : say again hello
+               run : echo "gagan is the king "
+
+               
